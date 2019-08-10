@@ -1,0 +1,33 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-image: url(images/bricks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.clock-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.particles-wrapper,
+.clock-dots-wrapper,
+.clock-rainbow-wrapper,
+.clock-hands-wrapper,
+.face-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
